@@ -18,4 +18,10 @@
 
 .header-nav-link {
   @apply text-gray-600 font-medium px-4 py-2 rounded-lg hover:bg-indigo-600 hover:text-white transition-colors;
+
+}
+
+.header-nav-link {
+  margin-right: 20px;
+  /* or adjust to your preference */
 }

@@ -11,7 +11,8 @@ const Header = () => (
           <PawPrint className="h-8 w-8 text-indigo-600" />
           <span className="text-xl font-bold text-indigo-600">PawsitiveCare</span>
         </div>
-        <div className="hidden md:flex items-center space-x-4">
+        {/* Increase space between navigation links */}
+        <div className="hidden md:flex items-center space-x-8">
           <a href="#" className="header-nav-link">Home</a>
           <a href="#" className="header-nav-link">Services</a>
           <a href="#" className="header-nav-link">Shop</a>
@@ -60,7 +61,7 @@ const Footer = () => (
           <h3 className="font-semibold mb-4">Contact Us</h3>
           <ul className="space-y-2">
             <li className="text-gray-600">support@pawsitivecare.com</li>
-            <li className="text-gray-600">+1 (555) 123-4567</li>
+            <li className="text-gray-600">+91 XXXXX XXXXX</li>
           </ul>
         </div>
       </div>
